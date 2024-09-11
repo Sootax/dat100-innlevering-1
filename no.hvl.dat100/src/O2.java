@@ -40,7 +40,7 @@ public class O2 {
             grade = "D";
         } else if (gradeNumber > 40) {
             grade = "E";
-        } else if (gradeNumber <= 39) {
+        } else if (gradeNumber > 0) {
             grade = "F";
         }
         return grade;
